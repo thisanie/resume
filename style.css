@@ -1,0 +1,141 @@
+/*Html tags here*/
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  background-image: linear-gradient(#eef2ff, white);
+}
+h1 {
+  color: #086e7d;
+  padding-top: 50px;
+  font-family: "Sacramento", cursive;
+  font-size: 70px;
+}
+h2 {
+  color: #24a19c;
+  padding: 20px;
+}
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: rgb(212, 207, 207);
+  border-width: 5px;
+  width: 7%;
+  margin: 60px auto;
+}
+li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 30px;
+}
+li a {
+  text-decoration: none;
+  color: #086e7d;
+  font-weight: bold;
+}
+li a:hover{
+    color:#58b5c3 ;
+}
+p {
+  line-height: 2;
+}
+.btn {
+    margin: 50px;
+  border: 0px transparent;
+  border-radius: 8px;
+  background-image: linear-gradient(#11cdd4, #11999c);
+  padding: 8px 15px;
+}
+.btn-text {
+  text-decoration: none;
+  color: white;
+
+  font-size: 15px;
+}
+.btn:hover {
+  background-image: linear-gradient(#30e3cb, #2bc4ad);
+}
+a:hover {
+  color: white;
+}
+.bottom-container {
+  color: #eaf6f6;
+  background-color: #086e7d;
+  padding: 50px 0 20px;
+  text-align: center;
+}
+.cloud-image1 {
+  width: 150px;
+  position: relative;
+  right: 200px;
+  top: 100px;
+}
+.cloud-image2 {
+  width: 150px;
+  position: absolute;
+  right: 200px;
+  top: 200px;
+}
+.copy-right {
+  font-family: "Montserrat", sans-serif;
+  padding: 20px 0;
+  font-size: 12px;
+}
+.footer-link {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+}
+.html-img {
+  width: 200px;
+  float: left;
+}
+.java-img {
+  width: 200px;
+  float: right;
+}
+.js-img {
+  width: 200px;
+  float: right;
+}
+.navbar {
+  text-align: left;
+  width: 100%;
+  position: fixed;
+  padding: 10px;
+  background-color: #eef2ff;
+  z-index: 1;
+}
+.middle-container {
+  width: 50%;
+  margin:50px auto;
+  text-align: center;
+}
+.python-img {
+  width: 200px;
+  float: left;
+  padding-right: 30px;
+}
+.profile-img {
+  margin-top: 50px;
+  width: 200px;
+}
+.skills {
+  margin: auto;
+}
+.skill-row {
+  margin: 100px auto;
+  text-align: left;
+}
+.sun-image {
+  margin-top: 50px;
+  width: 200px;
+}
+.top-container {
+  background-color: #eef2ff;
+  text-align: center;
+}
